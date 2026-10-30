@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Global Warming: 146 Years of Rising Temperatures</title>
+  <style>
+    body {
+      margin: 0;
+      background: #f5f7fb;
+      color: #18243a;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+    }
+    header {
+      background: #14253e;
+      color: white;
+      padding: 65px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 38px; margin-bottom: 10px; }
+    main { max-width: 900px; margin: auto; padding: 30px 20px; }
+    section {
+      background: white;
+      padding: 28px;
+      border-radius: 12px;
+      margin-bottom: 24px;
+      box-shadow: 0 3px 15px #0000000d;
+    }
+    h2 { color: #173d70; }
+    a { color: #125ba4; }
+    .button {
+      display: inline-block;
+      padding: 11px 18px;
+      background: #173d70;
+      color: white;
+      text-decoration: none;
+      border-radius: 7px;
+      margin-top: 8px;
+    }
+    .button:hover { background: #285c9d; }
+    .stripes {
+      height: 12px;
+      background: linear-gradient(
+        90deg, #254b91, #668ac1, #f2f2f2,
+        #f2b2a5, #c84942, #9d1d27
+      );
+    }
+    footer { text-align: center; padding: 30px; color: #58657a; }
+  </style>
+</head>
+<body>
+  <div class="stripes"></div>
+  <header>
+    <h1>Global Warming: 146 Years of Rising Temperatures</h1>
+    <p>Exploring Earth's temperature changes from 1880 to 2025</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>The Central Question</h2>
+      <p>How has global warming changed Earth's temperature
+      over time, and what does the data reveal about the
+      warming trend?</p>
+      <p>This project explores NASA GISTEMP v4 global temperature
+      anomalies relative to the 1951–1980 average.</p>
+      <a class="button"
+         href="https://colab.research.google.com/drive/1J0-U5kl8nsfMb6pyELT-qMWnShSZ3761?usp=sharing"
+         target="_blank" rel="noopener noreferrer">
+         Read the Complete Data Story
+      </a>
+    </section>
+
+    <section>
+      <h2>1. Annual Temperature Trend</h2>
+      <p>Created using Python and Altair. The line chart
+      reveals yearly fluctuations and a strong long-term
+      warming trend, particularly after 1980.</p>
+      <p>View this visualization in the complete Colab notebook.</p>
+    </section>
+
+    <section>
+      <h2>2. Warming Stripes</h2>
+      <p>Created using Google Sheets. Each vertical stripe
+      represents one year. Blue indicates cooler years
+      relative to the NASA baseline, while red indicates
+      warmer years.</p>
+      <p>View the original warming stripes in the
+      complete Colab notebook.</p>
+    </section>
+
+    <section>
+      <h2>3. Which Decades Were the Warmest?</h2>
+      <p>Created using Tableau Public. The bar chart
+      compares average temperature anomalies by decade.
+      The 2020s are a partial decade through 2025.</p>
+      <a class="button"
+         href="https://public.tableau.com/app/profile/muhammad.khan2006/viz/GlobalWarmingbyDecade18802025/WhichDecadesWeretheWarmest18802025"
+         target="_blank" rel="noopener noreferrer">
+         Explore the Interactive Tableau Chart
+      </a>
+    </section>
+
+    <section>
+      <h2>Conclusion</h2>
+      <p>All three visualizations tell a consistent story:
+      Earth's average surface temperature has increased
+      substantially since 1880. The annual trend,
+      warming stripes, and decade comparison provide
+      complementary perspectives on the same warming pattern.</p>
+    </section>
+
+    <section>
+      <h2>Data Sources and Credits</h2>
+      <p>Data: <a href="https://data.giss.nasa.gov/gistemp/">
+      NASA GISS Surface Temperature Analysis (GISTEMP v4)</a>.</p>
+      <p>Original published story remixed:
+      <a href="https://climate.nasa.gov/vital-signs/global-temperature/">
+      NASA Global Temperature</a>.</p>
+      <p>Platforms: Altair, Google Sheets, Tableau Public.</p>
+    </section>
+  </main>
+
+  <footer>
+    CIS 671 Information Visualization · Fall 2026
+  </footer>
+</body>
+</html>
